@@ -53,6 +53,7 @@ p {
   padding: 0 20px;
   text-align: justify;
   line-height: 1.6;
+  overflow: auto;
 }
 
 /* Browsers display scrollbars whether or not any content is actually clipped.*/
