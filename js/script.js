@@ -1,8 +1,9 @@
 
 $(function() {
-    $( ".project" ).accordion({
+    $(".project").accordion({
       active: false,
-      collapsible: true
+      collapsible: true,
+	    heightStyle: "content"
     });
 });
 
