@@ -9,86 +9,85 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <div class="top">
-      <div class="logo">
-        <a href="https://eu.udacity.com/course/front-end-web-developer-nanodegree--nd001" target="_blank">
-          <img src="img/logo.png" alt="Udacity logo" width="60" height="60">
-        </a>
-      </div>
+    <header class="grid-header-container top-line">
+      <a class="logo" href="https://eu.udacity.com/course/front-end-web-developer-nanodegree--nd001" target="_blank">
+      <img src="img/logo.png" alt="Udacity logo" width="60" height="60">
+      </a>
       <h1>My Portfolio</h1>
       <h4>Front-End Web Developer Student</h4>
-    </div>
-
-    <picture>
-      <source media="(min-width: 750px)" srcset="img/main_large.png">
-        <img class="hero" src="img/main_small.png" alt="Hero binary picture" width="950" height="300">
-    </picture>
-    <h2>Featured Work</h2>
-    <div class="container">
-
-      <div class="project">
-        <div class="image-container">
-          <picture>
-            <source media="(min-width: 750px)" srcset="img/portfolio_large.png">
-              <img class="project-image" src="img/portfolio_small.png" alt="Portfolio">
-          </picture>
-          <div class="info-text">Portfolio Site
-              <div class="material-icons">&#xe147;</div>
+    </header>
+    <main>
+      <article>
+        <picture>
+          <source media="(min-width: 750px)" srcset="img/main_large.png">
+          <img class="hero" src="img/main_small.png" alt="Hero binary picture">
+        </picture>
+        <h2>Featured Work</h2>
+        <div class="grid-container">
+          <div class="project">
+            <div class="image-container">
+              <picture>
+                <source media="(min-width: 750px)" srcset="img/portfolio_large.png">
+                <img class="project-image" src="img/portfolio_small.png" alt="Portfolio">
+              </picture>
+              <div class="info-text">
+                Portfolio Site
+                <div class="material-icons">&#xe147;</div>
+              </div>
+            </div>
+            <p>This is my portfolio website. This page includes projects that I have done.
+              You can find the source code on
+              <a href="https://github.com/arpelt/portfolio" target="_blank">GitHub</a>.
+              As this was one of Udacity Front-End Web Developer Nanodegree Program project the GitHub repository
+              is not updated after this project is reviewed and approved.
+            </p>
+          </div>
+          <div class="project">
+            <div class="image-container">
+              <picture>
+                <source media="(min-width: 750px)" srcset="img/animal_trading_card_large.png">
+                <img class="project-image" src="img/animal_trading_card_small.png" alt="Animal Trading Card">
+              </picture>
+              <div class="info-text">
+                Animal Trading Card
+                <div class="material-icons">&#xe147;</div>
+              </div>
+            </div>
+            <p>Animal tradindg card project. This was the first project I did during the
+              Udacity Front-End Web Developer Nanodegree Program. The source code for this
+              project is located on
+              <a href="https://github.com/arpelt/animal-trading-card" target="_blank">GitHub</a>.
+            </p>
+          </div>
+          <div class="project">
+            <div class="image-container">
+              <picture>
+                <source media="(min-width: 750px)" srcset="img/pixel_art_maker_large.png">
+                <img class="project-image" src="img/pixel_art_maker_small.png" alt="Pixel Art Maker">
+              </picture>
+              <div class="info-text">
+                Pixel Art Maker
+                <div class="material-icons">&#xe147;</div>
+              </div>
+            </div>
+            <p>Pixel Art Maker. This was one of my projects I did during the
+              scholarship program phase 1 (Challenge Scholarship). The source code is available on
+              <a href="https://github.com/arpelt/pixel-art-maker" target="_blank">GitHub</a>.
+              The live desktop version of project is hosted
+              <a href="https://arpelt.azurewebsites.net/pixel-art-maker/app/index.html" target="_blank">here</a>.
+            </p>
           </div>
         </div>
-          <p>This is my portfolio website. This page includes projects that I have done.
-            You can find the source code on
-            <a href="https://github.com/arpelt/portfolio" target="_blank">GitHub</a>.
-            As this was one of Udacity Front-End Web Developer Nanodegree Program project the GitHub repository
-            is not updated after this project is reviewed and approved.
-          </p>
-      </div>
-
-      <div class="project">
-        <div class="image-container">
-          <picture>
-            <source media="(min-width: 750px)" srcset="img/animal_trading_card_large.png">
-            <img class="project-image" src="img/animal_trading_card_small.png" alt="Animal Trading Card">
-          </picture>
-          <div class="info-text">Animal Trading Card
-            <div class="material-icons">&#xe147;</div>
-          </div>
-        </div>
-        <p>Animal tradindg card project. This was the first project I did during the
-          Udacity Front-End Web Developer Nanodegree Program. The source code for this
-          project is located on
-          <a href="https://github.com/arpelt/animal-trading-card" target="_blank">GitHub</a>.
-        </p>
-      </div>
-
-      <div class="project">
-        <div class="image-container">
-          <picture>
-            <source media="(min-width: 750px)" srcset="img/pixel_art_maker_large.png">
-            <img class="project-image" src="img/pixel_art_maker_small.png" alt="Pixel Art Maker">
-          </picture>
-          <div class="info-text">Pixel Art Maker
-            <div class="material-icons">&#xe147;</div>
-          </div>
-        </div>
-        <p>Pixel Art Maker. This was one of my projects I did during the
-          scholarship program phase 1 (Challenge Scholarship). The source code is available on
-          <a href="https://github.com/arpelt/pixel-art-maker" target="_blank">GitHub</a>.
-          The live desktop version of project is hosted
-          <a href="https://arpelt.azurewebsites.net/pixel-art-maker/app/index.html" target="_blank">here</a>.
-        </p>
-      </div>
-    </div>
+      </article>
+    </main>
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous">
-    </script>
+      crossorigin="anonymous"></script>
     <script
       src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
       integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-      crossorigin="anonymous">
-    </script>
+      crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
